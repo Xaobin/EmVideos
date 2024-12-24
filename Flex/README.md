@@ -49,8 +49,6 @@ Usaremos o word-wrap para corrigir, mais precisamente o (wrap) - pois os element
 <br>
 ![flex-wrap](https://github.com/Xaobin/EmVideos/blob/main/Flex/imgs/Flex09.png?raw=true)
 <br>
-
-
 <br>
 **Flex-Flow**.<br>
 Flex-wrap e Flex-direction são duas das propriedades mais importantes, elas definem o comportamento visualo que será apresentado!<br>
