@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Widget de previsão de tempo</title>
+<style>
+	body {
+		background-color:#3420e8;
+	}
+	
+	.container {
+		background-color:#2070e8;
+		
+	}
+	.container > div{
+		background-color:#e89820;
+	}
+	
+	.iconn{
+		weigth:50px;
+		height:50px;
+	}
+	
+	.weather {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.weather > div {
+    margin: 10px 0;
+	background-color:#20d4e8;
+}
+
+.weather__period {
+    flex: 1;
+    font-size: 2rem;
+    text-align: left;
+}
+
+.weather__icon {
+    height: 50px;
+    min-width: 50px;
+    width: 50px;
+}
+
+.weather__min {
+    font-weight: 700;
+}
+
+.weather__min::after {
+    content: ' - ';
+}
+
+@media (min-width: 37.5em) { /* 600px */
+    .weather {
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .weather > div {
+        margin: 0 50px;
+    }
+    
+    .weather__period {
+        font-size: 1.5rem;
+        min-width: 50px;
+    }
+    
+    .weather__minmax {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .weather__min::after {
+        content: '';
+    }
+}
+
+@media (min-width: 56.25em) { /* 900px */
+    .container {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .weather {
+        flex-basis: 100px;
+        flex-direction: column;
+    }
+    
+    .weather > div {
+        margin: 10px 0;
+    }
+    
+    .weather__period {
+        flex-basis: 100px;
+    }
+}
+	
+</style>	
+</head>
+<body>
+    
+<div class="container">
+    <div class="weather">
+        <div class="weather__period">Manh&atilde;</div>
+        
+        <div class="weather__icon">
+            <img class="iconn" src="https://cdn-icons-png.flaticon.com/128/17283/17283922.png">
+        </div>
+        
+        <div class="weather__minmax">
+            <span class="weather__min">16&ordm;</span>
+            <span class="weather__max">25&ordm;</span>
+        </div>
+        
+        <div class="weather__hr">HR 85%</div>
+    </div>
+    
+    <div class="weather">
+        <div class="weather__period">Tarde</div>
+        
+        <div class="weather__icon">
+            <img class="iconn" src="https://cdn-icons-png.flaticon.com/128/17283/17283916.png">
+        </div>
+        
+        <div class="weather__minmax">
+            <span class="weather__min">19&ordm;</span>
+            <span class="weather__max">26&ordm;</span>
+        </div>
+        
+        <div class="weather__hr">HR 45%</div>
+    </div>
+    
+    <div class="weather">
+        <div class="weather__period">Noite</div>
+        
+        <div class="weather__icon">
+            <img class="iconn" src="https://cdn-icons-png.flaticon.com/128/17283/17283932.png">
+        </div>
+        
+        <div class="weather__minmax">
+            <span class="weather__min">18&ordm;</span>
+            <span class="weather__max">25&ordm;</span>
+        </div>
+        
+        <div class="weather__hr">HR 60%</div>
+    </div>
+    
+    <div class="weather">
+        <div class="weather__period">Madruga</div>
+        
+        <div class="weather__icon">
+            <img class="iconn" src="https://cdn-icons-png.flaticon.com/128/17283/17283945.png">
+        </div>
+        
+        <div class="weather__minmax">
+            <span class="weather__min">18&ordm;</span>
+            <span class="weather__max">26&ordm;</span>
+        </div>
+        
+        <div class="weather__hr">HR 35%</div>
+    </div>
+</div>
+	
+</body>
+</html>
+

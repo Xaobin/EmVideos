@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Responsivo</title>
+<style>
+	body {
+		background-color:rgba(89,49,247,1);
+	}
+	.menu {
+		background-color: rgba(35,210,219,1);
+		display:flex;
+		list-style-type: none;
+		margin:0;
+		padding:0;
+		flex-wrap:wrap;
+	}
+	.menu_item {
+		background-color: rgba(229,155,29,1);
+		flex:1 1 200px; 
+		margin:5px;
+		padding:0;
+		display:flex;
+		align-items:center;
+		justify-content:center;
+	}
+	.menu_link {
+		color:#fff;
+		display:block;
+		padding:20px;
+		text-decoration:none;
+	}
+	.container {
+		background-color: rgba(178,120,19,1);
+		/* border-radius:2px; */
+		/* border:0px; */
+		color:#fff;
+		/* margin:0px; */
+		/* padding:0px; */
+		
+	}
+	@media (min-width: 53.125em){ /* 850px */
+		menu_item {
+			flex-basis:100px;
+		}
+	}
+</style>	
+</head>
+<body>
+    <nav>
+		<ul class="menu container">
+			<li class="menu_item">
+			 <a href="#" class="menu_link">Inicio</a>
+			</li> 
+			<li class="menu_item">
+			 <a href="#" class="menu_link">Quem Somos</a>
+			</li> 
+			<li class="menu_item">
+			 <a href="#" class="menu_link">Trabalhos</a>
+			</li> 
+			<li class="menu_item">
+			 <a href="#" class="menu_link">Empreendimentos</a>
+			</li> 
+			<li class="menu_item">
+			 <a href="#" class="menu_link">Contato</a>
+			</li> 
+		</ul>
+	</nav>
+</body>
+</html>
+
