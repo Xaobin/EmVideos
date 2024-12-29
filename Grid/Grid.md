@@ -105,6 +105,10 @@ Aqui está a imagem desenhada que explica a column do grid:<br>
 <img src="https://i0.wp.com/css-tricks.com/wp-content/uploads/2022/10/s_5E600D44A3602E06FB6B7B59AD446BE1961B4B0D409EEEA69A28E839C5C65BD4_1662830734930_first-example.jpg?resize=805%2C288&ssl=1" weight="350" height="150"><br>
 Exemplo Real, com grid, wrapper, onde a imagem se parece com um menu:<br>
 <img src="github.com/Xaobin/CoursesLearn/blob/main/Grid/imgs/GridAula08-0215.png?raw=true" weight="600" height="400"><br>
+Continuando o exemplo:<br>
+<img src="github.com/Xaobin/CoursesLearn/blob/main/Grid/imgs/GridAula08-0250.png?raw=true" weight="600" height="400"><br>
+Ainda falta a responsividade, para isto será usado o media query, como ficaria se, em certo tamanho de tela mobile, os elementos ficassem um abaixo de outro:<br>
+<img src="github.com/Xaobin/CoursesLearn/blob/main/Grid/imgs/GridAula09-0204.png?raw=true" weight="200" height="130"><br>
 <br>
 <br>
 ___________<br>
