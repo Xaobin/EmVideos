@@ -153,10 +153,34 @@ Exemplo<br>
 <a href="https://duckduckgo.com/?t=h_&q=css+auto-fill+auto-fit&ia=web">Duckduckgo - Auto-fill e auto-fit</a><br>
 <br>
 ___________<br>
-<b>_</b><br>
-<br>
-<a href=""></a><br>
-<a href=""></a><br>
+<b>Nomes de linha em CSS grid</b><br>
+Também conhecido como track names, usa-se o colchete dentro do grid-template-areas e mais os nomes das divs separados por vírgula para o grid-column, na propriedade grid-column adiciona-se os items em colchete ([item] / [item]). A palavra site pode ser especificada sozinha, sendo um termo reservado, junto de [site-start] ...[site-end], ... grid-column:site;<br>
+<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Grid_layout_using_named_grid_lines">Layout using named grid lines</a><br>
+Exemplo<br>
+<img src="https://github.com/Xaobin/CoursesLearn/blob/main/Grid/imgs/GridAula13-0248.png?raw=true" weight="490" height="295"><br>
+Também pode ser uado o [content-start], retirando o sufixo start - grid-column-start:content<br>
+<code>
+header,
+footer {
+	grid-column:site;
+}
+main {
+	grid-column:content;
+}
+aside {
+	grid-column:site-start / content-start;
+	grid-row: content-top / content-bottom;
+}
+@media (min-width:500px){
+	.wrapper {
+		display:grid;
+		grid-template-columns: [site-start] 1fr [content-start] repeat(4,1fr) [site-end];
+		grid-template-rows:[site-top] 200px [content-top] 200px [content-bottom] 200px [site-bottom];
+		grid-gap:.5rem;
+	}
+
+}
+</code>
 <br>
 ___________<br>
 <b>_</b><br>
