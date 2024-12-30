@@ -42,14 +42,32 @@ O grid-template-rows propriedade especifica o número (e as alturas) das linhas 
 <a href="https://www.w3schools.com/cssref/pr_grid-template-rows.php">W3schools - grid-template-rows</a><br><br>
 <a href="https://codepen.io/origamid/pen/gRKpow/">Exemplo Codepen - grid-template-rows</a><br><br>
 <br>
-Grid explícita e grid implícita: Na explícita, especificamos a configuração da grid, na grid implícita as células da grid serão preenchidas automaticamente<br>
+___________<br>
+<b>Grid explícita e grid implícita</b>: Na explícita, especificamos a configuração da grid, na grid implícita as células da grid serão preenchidas automaticamente<br>
 -----------<br>
+Quando usamos grid-template-columns e grid-template-rows criamos uma grade explícita . No entanto, se tentarmos colocar um item fora dessa grade, o navegador criará uma linha ou linhas de grade implícita para conter esse item.<br>
+<br>
+No código abaixo coloquei e entre as linhas 4 e 5 das colunas da grade, estas não são descritas com grid-template-rows, então uma linha de grade implícita 5 é criada.
+<br>
+Por padrão, as trilhas de grade implícitas criadas pelas linhas implícitas serão dimensionadas automaticamente. No entanto, você pode dimensionar as faixas com o grid-auto-columns e grid-auto-rows propriedades. Dimensionei minhas trilhas automáticas em 100px para corresponder ao restante das trilhas de coluna em minha grade
+<img src="https://github.com/Xaobin/CoursesLearn/blob/main/Grid/imgs/GridImpExp.png?raw=true" weight="390" height="195"><br><br>
 <br>
 ___________<br>
 <b>Grid-auto-rows e grid-auto-columns</b><br>
 O grid-auto-rows propriedade define um tamanho para as linhas em um contêiner de grade. <br>
+A propriedade CSS grid-auto-rows faz parte da especificação CSS Grid Layout, especificando o tamanho das linhas da grade que foram criadas sem ter um tamanho <b>explícito</b>. Em outras palavras, esta propriedade define o tamanho das linhas <b>implícitas</b> e quaisquer outras linhas que não tenham sido explicitamente dimensionadas na propriedade grid-template-rows<br>
 <a href="https://www.w3schools.com/cssref/pr_grid-auto-rows.php">W3schools - grid-auto-rows</a><br>
 <a href="https://codepen.io/stephenyrkoo/pen/BwBKaz">Codepen - grid-auto-rows e grid-auto-columns</a><br>
+<a href="https://css-tricks.com/almanac/properties/g/grid-auto-rows/">Grid-auto-rows (CSS-tricks)</a><br>
+<code>
+.grid-container {
+  display: grid;
+  grid-template-areas: "media detail detail"
+                       "media detail detail";
+  grid-template-rows: 200px;
+  grid-auto-rows: 150px;
+}
+</code>
 -----------<br>
 <br>
 ___________<br>
