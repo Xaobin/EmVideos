@@ -187,7 +187,7 @@ Tentativa de fazer o menu responsivo do vídeo:<br>
 <a href="https://github.com/Xaobin/CoursesLearn/blob/main/Flex/MenuResponsivo.html?raw=true">Menu Responsivo</a><br>
 Nível Avançado<br>
 Como fazer:<br>
-<a href="https://webdesign.tutsplus.com/how-to-build-a-responsive-navigation-bar-with-flexbox--cms-33535t">Link Webdesign - menu responsivo</a>
+<a href="https://webdesign.tutsplus.com/how-to-build-a-responsive-navigation-bar-with-flexbox--cms-33535t">Link Webdesign - menu responsivo</a><br>
 Pesquisa duckduckgo: menu Responsivo em Flexbox<br>
 <a href="https://duckduckgo.com/?t=h_&q=responsive+menu+with+flexbox&ia=web">Responsive menu with CSS Flexbox</a><br>
 <br>

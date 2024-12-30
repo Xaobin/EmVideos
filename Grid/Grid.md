@@ -104,11 +104,48 @@ Aqui está o exemplo mais fácil de entender<br>
 Aqui está a imagem desenhada que explica a column do grid:<br>
 <img src="https://i0.wp.com/css-tricks.com/wp-content/uploads/2022/10/s_5E600D44A3602E06FB6B7B59AD446BE1961B4B0D409EEEA69A28E839C5C65BD4_1662830734930_first-example.jpg?resize=805%2C288&ssl=1" weight="350" height="150"><br>
 Exemplo Real, com grid, wrapper, onde a imagem se parece com um menu:<br>
-<img src="github.com/Xaobin/CoursesLearn/blob/main/Grid/imgs/GridAula08-0215.png?raw=true" weight="600" height="400"><br>
+<img src="https://github.com/Xaobin/CoursesLearn/blob/main/Grid/imgs/GridAula08-0215.png?raw=true" weight="600" height="400"><br>
 Continuando o exemplo:<br>
-<img src="github.com/Xaobin/CoursesLearn/blob/main/Grid/imgs/GridAula08-0250.png?raw=true" weight="600" height="400"><br>
+<img src="https://github.com/Xaobin/CoursesLearn/blob/main/Grid/imgs/GridAula08-0250.png?raw=true" weight="600" height="400"><br>
 Ainda falta a responsividade, para isto será usado o media query, como ficaria se, em certo tamanho de tela mobile, os elementos ficassem um abaixo de outro:<br>
-<img src="github.com/Xaobin/CoursesLearn/blob/main/Grid/imgs/GridAula09-0204.png?raw=true" weight="200" height="130"><br>
+<img src="https://github.com/Xaobin/CoursesLearn/blob/main/Grid/imgs/GridAula09-0204.png?raw=true" weight="350" height="180"><br>
+<br>
+<br>
+___________<br>
+**Sobreposição de conteúdo CSS**<br>
+No item interior foi visto posicinamento de colunas, esta parte trata do posicionamento de linhas, propriedades: grid-row-start e grid-row-end<br>
+Exemplo básico:<br>
+<img src="https://github.com/Xaobin/CoursesLearn/blob/main/Grid/imgs/GridAula10-0110.png?raw=true" weight="550" height="380"><br>
+Simplificador da Sintaxe: **Grid-row**<br>
+É possíve usar grid-row e grid-columns juntos<br>
+Com essas duas propriedades o poder do CSS Grid aumenta drasticamente, desta forma, as possibilidades de fazer coisas viram infinitas<br>
+Mais um exemplos:<br>
+<img src="https://github.com/Xaobin/CoursesLearn/blob/main/Grid/imgs/GridAula10-0357.png?raw=true" weight="550" height="380"><br>
+<br>
+Também nesta seção, vale destacar o **z-index** - propriedade que posiciona o elemento por cima de outro<br>
+<a href="https://codepen.io/luanalvesdev/pen/gOZeWwW">Codepen - Exemplo do Grid-row</a><br>
+<a href="https://www.w3docs.com/learn-css/grid-row.html">W3Docs - grid-row</a><br>
+<br>
+<br>
+___________<br>
+**_**<br>
+<br>
+<a href=""></a><br>
+<a href=""></a><br>
+<br>
+<br>
+___________<br>
+**_**<br>
+<br>
+<a href=""></a><br>
+<a href=""></a><br>
+<br>
+<br>
+___________<br>
+**_**<br>
+<br>
+<a href=""></a><br>
+<a href=""></a><br>
 <br>
 <br>
 ___________<br>
