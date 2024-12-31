@@ -18,7 +18,7 @@ O Grid por padrão oculpa por total o tamanho onde se encontra
 <a href="https://www.youtube.com/playlist?list=PLYgzkrmJnLwpeeGgdADYq3cE2yUwLLTOv">Curso em vídeo</a><br>
 <a href="https://css-tricks.com/snippets/css/complete-guide-grid/">Guia completo de Grid</a><br>
 <br>
-___________<br>
+<hr>
 <b>Grid-template-columns</b><br>
 O grid-template-columns propriedade especifica o número (e as larguras) das colunas em uma grade layout. <br>
 <a href="https://www.w3schools.com/cssref/pr_grid-template-columns.php">W3chools grid-template-column</a><br>
@@ -28,7 +28,7 @@ Exemplo no codepen:<br>
 Grid-template-columns (CSS-only)</a><br>
 -----------<br>
 <br>
-___________<br>
+<hr>
 <b>Grid-column-gap</b><br>
 A propriedade grid-column-gap define o tamanho do intervalo entre as colunas..<br>
 <a href="https://www.w3docs.com/learn-css%20/grid-column-gap.html">W3Docs - grid-column-gap</a><br>
@@ -36,23 +36,21 @@ Exemplo Codepen<br>
 <a href="https://codepen.io/hubspot/pen/yLRwmvx">Grid-Column_Gap</a><br>
 -----------<br>
 <br>
-___________<br>
+<hr>
 <b>Grid-template-rows</b><br>
 O grid-template-rows propriedade especifica o número (e as alturas) das linhas em um layout de grade.<br>
 <a href="https://www.w3schools.com/cssref/pr_grid-template-rows.php">W3schools - grid-template-rows</a><br><br>
 <a href="https://codepen.io/origamid/pen/gRKpow/">Exemplo Codepen - grid-template-rows</a><br><br>
 <br>
-___________<br>
+<hr>
 <b>Grid explícita e grid implícita</b>: Na explícita, especificamos a configuração da grid, na grid implícita as células da grid serão preenchidas automaticamente<br>
 -----------<br>
 Quando usamos grid-template-columns e grid-template-rows criamos uma grade explícita . No entanto, se tentarmos colocar um item fora dessa grade, o navegador criará uma linha ou linhas de grade implícita para conter esse item.<br>
 <br>
-No código abaixo coloquei e entre as linhas 4 e 5 das colunas da grade, estas não são descritas com grid-template-rows, então uma linha de grade implícita 5 é criada.
-<br>
 Por padrão, as trilhas de grade implícitas criadas pelas linhas implícitas serão dimensionadas automaticamente. No entanto, você pode dimensionar as faixas com o grid-auto-columns e grid-auto-rows propriedades. Dimensionei minhas trilhas automáticas em 100px para corresponder ao restante das trilhas de coluna em minha grade
-<img src="https://github.com/Xaobin/CoursesLearn/blob/main/Grid/imgs/GridImpExp.png?raw=true" weight="390" height="195"><br><br>
-<br>
-___________<br>
+<img src="https://github.com/Xaobin/CoursesLearn/blob/main/Grid/imgs/GridImpExp.png?raw=true" weight="390" height="195"><br>
+<a href="https://gridbyexample.com/examples/code/example10">Codepen - grid implícita/explícita </a><br>
+<hr>
 <b>Grid-auto-rows e grid-auto-columns</b><br>
 O grid-auto-rows propriedade define um tamanho para as linhas em um contêiner de grade. <br>
 A propriedade CSS grid-auto-rows faz parte da especificação CSS Grid Layout, especificando o tamanho das linhas da grade que foram criadas sem ter um tamanho <b>explícito</b>. Em outras palavras, esta propriedade define o tamanho das linhas <b>implícitas</b> e quaisquer outras linhas que não tenham sido explicitamente dimensionadas na propriedade grid-template-rows<br>
@@ -70,28 +68,28 @@ A propriedade CSS grid-auto-rows faz parte da especificação CSS Grid Layout, e
 </code>
 -----------<br>
 <br>
-___________<br>
+<hr>
 <b>Grid-row-gap</b><br>
 A propriedade grid-row-gap define o tamanho do intervalo entre as linhas dos elementos da grade. A largura do intervalo pode ser especificada, separando as linhas usando um valor para grid-row-gap.<br>
 <a href="https://www.w3docs.com/learn-css/grid-row-gap.html">W3Docs - grid-row-gap</a><br>
 <a href="https://codepen.io/imbeshat7/pen/GRGxmKv">Codepen - grid-row-gap</a><br>
 -----------<br>
 <br>
-___________<br>
+<hr>
 <b>Grid-gap</b><br>
 forma reduzida de usar o grid-row-gap, tanto em linhas como em colunas. Produz espaçamento entre elementos<br>
 <a href="https://www.w3docs.com/learn-css%20/grid-gap.html">W3Docs - grid-gap</a><br>
 <a href="https://codepen.io/aneesh-palamthodi/pen/dyxabZK">Codepen - grid-gap</a><br>
 -----------<br>
 <br>
-___________<br>
+<hr>
 <b>Unidade FR</b><br>
 Esta unidade foi necessária criar para não ocorrer problemas, significa fração<br>
 exemplo: grid-template-columns: repeat(3, 1fr); <br>
 <a href="https://css-tricks.com/introduction-fr-css-unit/">Unidade FR, explicação - css-tricks</a><br>
 -----------<br>
 <br>
-___________<br>
+<hr>
 <b>Alinhamento de conteúdo</b><br>
 Parecido com flexbox, tem a propriedade align-items, com as propriedades stretch, center, start, end<br>
 Também a propriedade justify-items<br>
@@ -99,7 +97,7 @@ Também a propriedade justify-items<br>
 <a href=""></a><br>
 -----------<br>
 <br>
-___________<br>
+<hr>
 <b>Align-sef</b><br>
 Similar ao align-items, funciona para um item<br>
 <a href="https://www.w3schools.com/cssref/css3_pr_align-self.php">W3Schools align-self</a><br>
@@ -108,7 +106,7 @@ Melhor exemplo:<br>
 <a href="https://codepen.io/amelieyeh/pen/KXmRxO">Codepen -exemplo 2</a><br>
 -----------<br>
 <br>
-___________<br>
+<hr>
 <b>Ocupando espaços no CSS grid (grid-column)</b><br>
 Adentrando na parte mais interessante. Grid-column é um abreviador para grid-column-start e grid-column-end. A propriedade grid-column especifica o tamanho e a localização de um item de grade em um layout de grade e é uma propriedade abreviada para as seguintes propriedades:(grid-column-start+grid-column-end)
 <br>
@@ -125,9 +123,9 @@ Ainda falta a responsividade, para isto será usado o media query, como ficaria 
 <img src="https://github.com/Xaobin/CoursesLearn/blob/main/Grid/imgs/GridAula09-0204.png?raw=true" weight="350" height="180"><br>
 <br>
 <br>
-___________<br>
+<hr>
 <b>Sobreposição de conteúdo CSS</b><br>
-No item interior foi visto posicinamento de colunas, esta parte trata do posicionamento de linhas, propriedades: grid-row-start e grid-row-end<br>
+No item interior foi visto posicionamento de colunas, esta parte trata do posicionamento de linhas, propriedades: grid-row-start e grid-row-end<br>
 Exemplo básico:<br>
 <img src="https://github.com/Xaobin/CoursesLearn/blob/main/Grid/imgs/GridAula10-0110.png?raw=true" weight="490" height="295"><br>
 Simplificador da Sintaxe: <b>Grid-row</b><br>
@@ -142,7 +140,7 @@ Também nesta seção, vale destacar o <b>z-index</b> - propriedade que posicion
 <a href="https://www.w3docs.com/learn-css/grid-row.html">W3Docs - grid-row</a><br>
 -----------<br>
 <br>
-___________<br>
+<hr>
 <b>Áreas de grid</b><br>
 Para fazer uma área de grid, é preciso especificar uma <b>grid-area</b> para cada elemento onde se quer fazer uma composição baseada nas áreas do grid<br>
 <a href="https://codepen.io/origamid/pen/eRKwaN/">Codepen - Grid-area</a><br>
@@ -163,14 +161,14 @@ Com Responsividade, usando media query, a partir do breakpoint especificado!<br>
 <img src="https://github.com/Xaobin/CoursesLearn/blob/main/Grid/imgs/GridAula11-0702.png?raw=true" weight="490" height="295"><br>
 -----------<br>
 <br>
-___________<br>
+<hr>
 <b>CSS auto-fill e auto-fit</b><br>
 Exemplo<br>
 <img src="https://github.com/Xaobin/CoursesLearn/blob/main/Grid/imgs/GridAula12-0200.png?raw=true" weight="490" height="295"><br>
 <a href="https://css-tricks.com/auto-sizing-columns-css-grid-auto-fill-vs-auto-fit/">Auto-Sizing Columns in CSS Grid: `auto-fill` vs `auto-fit`</a><br>
 <a href="https://duckduckgo.com/?t=h_&q=css+auto-fill+auto-fit&ia=web">Duckduckgo - Auto-fill e auto-fit</a><br>
 <br>
-___________<br>
+<hr>
 <b>Nomes de linha em CSS grid</b><br>
 Também conhecido como track names, usa-se o colchete dentro do grid-template-areas e mais os nomes das divs separados por vírgula para o grid-column, na propriedade grid-column adiciona-se os items em colchete ([item] / [item]). A palavra site pode ser especificada sozinha, sendo um termo reservado, junto de [site-start] ...[site-end], ... grid-column:site;<br>
 <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Grid_layout_using_named_grid_lines">Layout using named grid lines</a><br>
@@ -202,7 +200,7 @@ aside {
 <br>
 Exemplo<br>
 <img src="https://github.com/Xaobin/CoursesLearn/blob/main/Grid/imgs/GridAula14-0329.png?raw=true" weight="490" height="295"><br>
-___________<br>
+<hr>
 <b>Grid Layout na prática - 3 Layouts</b><br>
 Exemplos no codepen<br>
 <a href="https://codepen.io/desenvolvweb/pen/zYadPPY">Layout 1</a><br>
