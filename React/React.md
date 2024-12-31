@@ -53,8 +53,20 @@ export default function Data(){
 <b>Arrow function - para usar o parâmetro - não usar { aumentar (10) } e sim () =>...</b><br>
 <img src="https://github.com/Xaobin/CoursesLearn/blob/main/React/imgs/React12.png?raw=true" weight="490" height="295"><br>
 <br>
+<b>Desestruturação da props </b><br>
+<div style="background-color:#e8e7d7; color:#000;"><small><code> 
+&#60;Componente unidades={1} /&#62; <br> 
+&#60;Componente unidades={5} /&#62; <br>
+</code></small></div>
+<img src="https://github.com/Xaobin/CoursesLearn/blob/main/React/imgs/React13.png?raw=true" weight="490" height="295"><br>
 <br>
+<b>Dinâmica dos métodos -  usado por outro componente</b><br>
+<img src="https://github.com/Xaobin/CoursesLearn/blob/main/React/imgs/React14.png?raw=true" weight="500" height="295"><br>
 <br>
+<b>Experimentos com componentes - métodos de adição - exportar método</b><br>
+<img src="https://github.com/Xaobin/CoursesLearn/blob/main/React/imgs/React15.png?raw=true" weight="346" height="170"><br>
+<img src="https://github.com/Xaobin/CoursesLearn/blob/main/React/imgs/React16.png?raw=true" weight="346" height="170"><br>
+<img src="https://github.com/Xaobin/CoursesLearn/blob/main/React/imgs/React17.png?raw=true" weight="346" height="170"><br>
 <br>
 <br>
 <br>
