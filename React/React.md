@@ -1,5 +1,9 @@
 ## React JS
 <h3>Curso/Tutorial básico de React.</h3>
+<b>Capturado em vídeo</b> - <a href="https://www.youtube.com/playlist?list=PLXik_5Br-zO-JH-3Bxgdj6m0YcHEDeI1e">ReactJS - Curso básico</a><br>
+Links<br>
+<a href="https://www.patterns.dev/react/">Overview do React</a><br>
+<b></b><br>
 <b>Estrutura básica, pastas, Fragment</b><br>
 <img src="https://github.com/Xaobin/CoursesLearn/blob/main/React/imgs/React01.png?raw=true" weight="490" height="295"><br>
 <br>
@@ -10,9 +14,7 @@
 <img src="https://github.com/Xaobin/CoursesLearn/blob/main/React/imgs/React03.png?raw=true" weight="490" height="295"><br>
 <hr>
 <h3>Fazer o debug da aplicação - usando o StrictMode (Modo para fazer debug)</h3>
-<img src="<img src="https://github.com/Xaobin/CoursesLearn/blob/main/React/imgs/StrictMode.png?raw=true" weight="490" height="295"><br>
-" 
-weight="290" height="380">
+<img src="https://github.com/Xaobin/CoursesLearn/blob/main/React/imgs/StrictMode.png?raw=true" weight="490" height="295"><br>
 <br>
 <h3>Usando variáveis, objetos</h3>
 <small>
@@ -45,7 +47,11 @@ export default function Data(){
 <b>React hooks - useState</b><br>
 <img src="https://github.com/Xaobin/CoursesLearn/blob/main/React/imgs/React10.png?raw=true" weight="490" height="295"><br>
 <br>
+<b>useState - mais exemplos parte 1</b><br>
+<img src="https://github.com/Xaobin/CoursesLearn/blob/main/React/imgs/React11.png?raw=true" weight="490" height="295"><br>
 <br>
+<b>Arrow function - para usar o parâmetro - não usar { aumentar (10) } e sim () =>...</b><br>
+<img src="https://github.com/Xaobin/CoursesLearn/blob/main/React/imgs/React12.png?raw=true" weight="490" height="295"><br>
 <br>
 <br>
 <br>
