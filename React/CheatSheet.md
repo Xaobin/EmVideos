@@ -1,7 +1,7 @@
 # React JS
 
 * Cheat Sheet 01
-<img weight="600" height="400" src="https://github.com/Xaobin/CoursesLearn/blob/main/React/imgs/CheatSheet.pngraw=true">
+<img weight="600" height="400" src="https://github.com/Xaobin/CoursesLearn/blob/main/React/imgs/CheatSheet.png?raw=true">
 <br>
 *
 *
