@@ -105,14 +105,14 @@ export default function Data(){
 <img src="https://github.com/Xaobin/CoursesLearn/blob/main/React/imgs/React24.png?raw=true" weight="346" height="200"><br>
 <br>
 <b>Obter dados do input e apresentar no browser (espécie de Model)</b><br>
-<img src="https://github.com/Xaobin/CoursesLearn/blob/main/React/imgs/React25.png?raw=true" weight="346" height="200"><<br
+<img src="https://github.com/Xaobin/CoursesLearn/blob/main/React/imgs/React25.png?raw=true" weight="346" height="200"><br
 <br>
 <b>Continuação mais elaborada, input, button -> inserir na lista (parece uma coleção)</b><br>
 <table border="0">
 <tr><td>
-<img src="https://github.com/Xaobin/CoursesLearn/blob/main/React/imgs/React26.png?raw=true" weight="346" height="170">
+<img src="https://github.com/Xaobin/CoursesLearn/blob/main/React/imgs/React26.png?raw=true" weight="376" height="230">
 </td><td>
-<img src="https://github.com/Xaobin/CoursesLearn/blob/main/React/imgs/React27.png?raw=true" weight="346" height="170">
+<img src="https://github.com/Xaobin/CoursesLearn/blob/main/React/imgs/React27.png?raw=true" weight="376" height="230">
 </td></tr>
 <tr><td>
 <img src="https://github.com/Xaobin/CoursesLearn/blob/main/React/imgs/React28.png?raw=true" weight="346" height="170">
@@ -121,15 +121,24 @@ export default function Data(){
 </table>
 <br>
 <b>useRef - Referência</b><br>
-<img src="https://github.com/Xaobin/CoursesLearn/blob/main/React/imgs/React29.png?raw=true" weight="346" height="170">
+<img src="https://github.com/Xaobin/CoursesLearn/blob/main/React/imgs/React29.png?raw=true" weight="376" height="230">
 <br>
 <b>useEffect - Efeito - quando usado na [variavel] ou apenas no início [ ] (No arranque)</b><br>
-<img src="https://github.com/Xaobin/CoursesLearn/blob/main/React/imgs/React30.png?raw=true" weight="346" height="170">
+<img src="https://github.com/Xaobin/CoursesLearn/blob/main/React/imgs/React30.png?raw=true" weight="376" height="230">
 <br>
-<b>useEffect </b><br>
-<img src="https://github.com/Xaobin/CoursesLearn/blob/main/React/imgs/React31.png?raw=true" weight="346" height="170">
+<b>useEffect II</b><br>
+<img src="https://github.com/Xaobin/CoursesLearn/blob/main/React/imgs/React31.png?raw=true" weight="376" height="230">
 <br>
+<b>useEffect III</b><br>
+<img src="https://github.com/Xaobin/CoursesLearn/blob/main/React/imgs/React32.png?raw=true" weight="376" height="230">
 <br>
+<b>useEffect IV- uso do fetch - cca2 é uma propriedade única </b><br>
+<table>
+<tr>
+<td><img src="https://github.com/Xaobin/CoursesLearn/blob/main/React/imgs/React33.png?raw=true" weight="376" height="230"></td>
+<td><img src="https://github.com/Xaobin/CoursesLearn/blob/main/React/imgs/React34.png?raw=true" weight="376" height="230"></td>
+</tr>
+</table>
 <br>
 <br>
 <br>
