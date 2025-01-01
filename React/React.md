@@ -90,6 +90,35 @@ export default function Data(){
 </tr>
 </table>
 <br>
+<b>Uso do select - onChange - (e) - parseInt - e.target.value</b><br>
+<img src="https://github.com/Xaobin/CoursesLearn/blob/main/React/imgs/React21.png?raw=true" weight="346" height="200"><br>
+<br>
+<b>Conditional rendering - Alterar parágrafo - CSS</b><br>
+<table>
+<tr>
+<td><img src="https://github.com/Xaobin/CoursesLearn/blob/main/React/imgs/React22.png?raw=true" weight="346" height="200"></td>
+<td><img src="https://github.com/Xaobin/CoursesLearn/blob/main/React/imgs/React23.png?raw=true" weight="346" height="200"></td>
+</tr>
+</table>
+<br>
+<b>Componente -> exibe condicionalmente outros componentes</b><br>
+<img src="https://github.com/Xaobin/CoursesLearn/blob/main/React/imgs/React24.png?raw=true" weight="346" height="200"><<br>
+<br>
+<b>Obter dados do input e apresentar no browser (espécie de Model)</b><br>
+<img src="https://github.com/Xaobin/CoursesLearn/blob/main/React/imgs/React25.png?raw=true" weight="346" height="200"><<br
+<br>
+<table border="0">
+<tr><td>
+<img src="https://github.com/Xaobin/CoursesLearn/blob/main/React/imgs/React26.png?raw=true" weight="346" height="170">
+</td><td>
+<img src="https://github.com/Xaobin/CoursesLearn/blob/main/React/imgs/React27.png?raw=true" weight="346" height="170">
+</td></tr>
+<tr><td>
+<img src="https://github.com/Xaobin/CoursesLearn/blob/main/React/imgs/React28.png?raw=true" weight="346" height="170">
+</td>
+</tr>
+</table>
+<br>
 <br>
 <br>
 <br>
