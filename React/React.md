@@ -102,11 +102,12 @@ export default function Data(){
 </table>
 <br>
 <b>Componente -> exibe condicionalmente outros componentes</b><br>
-<img src="https://github.com/Xaobin/CoursesLearn/blob/main/React/imgs/React24.png?raw=true" weight="346" height="200"><<br>
+<img src="https://github.com/Xaobin/CoursesLearn/blob/main/React/imgs/React24.png?raw=true" weight="346" height="200"><br>
 <br>
 <b>Obter dados do input e apresentar no browser (espécie de Model)</b><br>
 <img src="https://github.com/Xaobin/CoursesLearn/blob/main/React/imgs/React25.png?raw=true" weight="346" height="200"><<br
 <br>
+<b>Continuação mais elaborada, input, button -> inserir na lista (parece uma coleção)</b><br>
 <table border="0">
 <tr><td>
 <img src="https://github.com/Xaobin/CoursesLearn/blob/main/React/imgs/React26.png?raw=true" weight="346" height="170">
@@ -119,8 +120,14 @@ export default function Data(){
 </tr>
 </table>
 <br>
+<b>useRef - Referência</b><br>
+<img src="https://github.com/Xaobin/CoursesLearn/blob/main/React/imgs/React29.png?raw=true" weight="346" height="170">
 <br>
+<b>useEffect - Efeito - quando usado na [variavel] ou apenas no início [ ] (No arranque)</b><br>
+<img src="https://github.com/Xaobin/CoursesLearn/blob/main/React/imgs/React30.png?raw=true" weight="346" height="170">
 <br>
+<b>useEffect </b><br>
+<img src="https://github.com/Xaobin/CoursesLearn/blob/main/React/imgs/React31.png?raw=true" weight="346" height="170">
 <br>
 <br>
 <br>
